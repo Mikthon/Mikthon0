@@ -1,4 +1,4 @@
-# by: t.me/Eighthon
+# by: t.me/Mikthon
 
 import random
 import requests
@@ -144,7 +144,7 @@ async def _(event):
  الامر:   `.حالة الصيد`
  • لمعرفة عدد المحاولات للصيد
 
- @eighthon**
+ @mikthon**
 
 '''
     )
@@ -169,7 +169,7 @@ async def hunterusername(event):
         try:
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
-                    title="EIGHTHON HUNTER",
+                    title="MIKTHON HUNTER",
                     about="This channel to hunt username by - @eighthon ",
                 )
             )
@@ -196,7 +196,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"⌯ 𓆩 We are the strongest !'𓆪\n⎱ UserName: ↣ (@{username}❳!\n⎱ Hunting Log {trys2[0]}\n⎱ by : @S_Z_H\n⎱ by : @E_7_V",
+                    f"⌯ 𓆩 We are the strongest !'𓆪\n⎱ UserName: ↣ (@{username}❳!\n⎱ Hunting Log {trys2[0]}\n⎱ by : @M_B_U",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -239,8 +239,8 @@ async def _(event):
         try:
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
-                    title="EIGHTHON HUNTER - صيد ايت ثون",
-                    about="This channel to hunt username by - @eighthon ",
+                    title="MIKTHON HUNTER - صيد مكثون",
+                    about="This channel to hunt username by - @mikthon ",
                 )
             )
             ch = ch.updates[1].channel_id
@@ -264,7 +264,7 @@ async def _(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"- Done : @{username} !\n- By : @S_Z_H - @E_7_V !\n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} !\n- By : @M_B_U !\n- Hunting Log {trys2[0]}",
                 )
                 break
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -349,9 +349,7 @@ async def _(event):
 
 ⎱ UserName: ↣ (@{username}❳!
 
-⎱ by : @S_Z_H
-
-⎱ by : @E_7_V **
+⎱ by : @M_B_U **
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -386,9 +384,7 @@ async def _(event):
 
 ⎱ UserName: ↣ (@{username}❳!
 
-⎱ by : @S_Z_H
-
-⎱ by : @E_7_V
+⎱ by : @M_B_U
 -- -- -- -- -- -- -- -- -- -- -- -- -- **
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
