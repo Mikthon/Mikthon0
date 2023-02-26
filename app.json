@@ -1,9 +1,9 @@
 {
-    "name": "Eighthon",
+    "name": "Mikthon",
     "description": "User bot for telegram !",
     "stack": "container",
     "logo": "https://graph.org/file/0eab2a7cc000a59535d18.png",
-    "repository": "https://github.com/rick1128/eighthon",
+    "repository": "https://github.com/rick1128/Mikthon0",
     "keywords": [
         "python",
         "chatbot",
